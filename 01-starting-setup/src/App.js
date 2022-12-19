@@ -6,19 +6,19 @@ function App() {
       id: "e1",
       title: "Gym Membership",
       amount: 50.0,
-      date: new Date(2022, 12, 19),
+      date: new Date(2022, 11, 19),
     },
     {
       id: "e2",
       title: "Pre-workout",
       amount: 25.0,
-      date: new Date(2022, 12, 20),
+      date: new Date(2022, 11, 20),
     },
     {
       id: "e3",
       title: "Protein powder",
       amount: 40.0,
-      date: new Date(2022, 12, 21),
+      date: new Date(2022, 11, 21),
     },
   ];
 
