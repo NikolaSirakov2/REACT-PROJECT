@@ -1,9 +1,18 @@
+import "./ExpenseItem.css";
+
 function ExpenseItem() {
+  const expenseDate = new Date(2022, 12, 28);
+  const expenseTitle = 'Fitness Membership';
+  const expenseAmount = 50.00;
+
+  
   return (
-    <div>
-      <div>December 20th 2022</div>
-      <h2>Fitness Membership</h2>
-      <div>$50.00</div>
+    <div className="expense-item">
+      <div>{expenseDate.toISOString()}</div>
+      <div className="expense-item__description">
+        <h2>{expenseTitle}</h2>
+        <div className="expense-item__price">${expenseAmount}</div>
+      </div>
     </div>
   );
 }
